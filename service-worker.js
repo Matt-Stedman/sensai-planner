@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/sensai-planner/precache-manifest.a96519646d2d8aab180ba4485f6e9a5a.js"
+  "/sensai-planner/precache-manifest.5920e756735caebef05f190f1ba5daba.js"
 );
 
 workbox.clientsClaim();

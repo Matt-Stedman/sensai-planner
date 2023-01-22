@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "6451ff699583a3cb3cf5",
+    "revision": "0d6d26c5b45309b8608b",
     "url": "/sensai-planner/static/css/main.152edeb7.chunk.css"
   },
   {
-    "revision": "6451ff699583a3cb3cf5",
-    "url": "/sensai-planner/static/js/main.6451ff69.chunk.js"
+    "revision": "0d6d26c5b45309b8608b",
+    "url": "/sensai-planner/static/js/main.0d6d26c5.chunk.js"
   },
   {
     "revision": "8a1229037873ab4e6605",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/sensai-planner/static/js/runtime~main.28997f38.js"
   },
   {
-    "revision": "f952e060a3f173bc8f5938adbf98955b",
+    "revision": "0c8aadfa06a739c08b99aa75c813b8a2",
     "url": "/sensai-planner/index.html"
   }
 ];
