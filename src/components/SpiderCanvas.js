@@ -84,7 +84,7 @@ const SpiderCanvas = (props) => {
         st_projects.map((project, i) => {
           return {
             ...project,
-            use_text: (("pr_node_" + i === e.target.id()) ? project.title + "\n" + project.description : project.title),
+            use_text: (("pr_node_" + i === e.target.id() && project.description !== undefined) ? project.title + "\n" + project.description : project.title),
             opacity: (("pr_node_" + i === e.target.id()) ? 1 : 0.5)
           }
         })
@@ -98,7 +98,7 @@ const SpiderCanvas = (props) => {
             sprints: project.sprints.map((sprint, j) => {
               return {
                 ...sprint,
-                use_text: (("sp_node_" + i + "_" + j === e.target.id()) ? sprint.title + "\n" + sprint.description : sprint.title),
+                use_text: (("sp_node_" + i + "_" + j === e.target.id() && sprint.description !== undefined) ? sprint.title + "\n" + sprint.description : sprint.title),
                 opacity: (("sp_node_" + i + "_" + j === e.target.id()) ? 1 : 0.5)
               }
             })
@@ -114,10 +114,10 @@ const SpiderCanvas = (props) => {
             sprints: project.sprints.map((sprint, j) => {
               return {
                 ...sprint,
-                todos: sprint.todos.map((to_do, k) => {
+                todos: sprint.todos.map((todo, k) => {
                   return {
-                    ...to_do,
-                    use_text: (("td_node_" + i + "_" + j + "_" + k === e.target.id()) ? to_do.title + "\n" + to_do.description : to_do.title),
+                    ...todo,
+                    use_text: (("td_node_" + i + "_" + j + "_" + k === e.target.id() && todo.description !== undefined) ? todo.title + "\n" + todo.description : todo.title),
                     opacity: (("td_node_" + i + "_" + j + "_" + k === e.target.id()) ? 1 : 0.5)
                   }
                 })
