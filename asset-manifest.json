@@ -1,7 +1,7 @@
 {
   "main.css": "/sensai-planner/static/css/main.152edeb7.chunk.css",
-  "main.js": "/sensai-planner/static/js/main.0d6d26c5.chunk.js",
-  "main.js.map": "/sensai-planner/static/js/main.0d6d26c5.chunk.js.map",
+  "main.js": "/sensai-planner/static/js/main.d284cf99.chunk.js",
+  "main.js.map": "/sensai-planner/static/js/main.d284cf99.chunk.js.map",
   "static/js/1.8a122903.chunk.js": "/sensai-planner/static/js/1.8a122903.chunk.js",
   "static/js/1.8a122903.chunk.js.map": "/sensai-planner/static/js/1.8a122903.chunk.js.map",
   "static/js/2.654739b9.chunk.js": "/sensai-planner/static/js/2.654739b9.chunk.js",
@@ -10,6 +10,6 @@
   "runtime~main.js.map": "/sensai-planner/static/js/runtime~main.28997f38.js.map",
   "static/css/main.152edeb7.chunk.css.map": "/sensai-planner/static/css/main.152edeb7.chunk.css.map",
   "index.html": "/sensai-planner/index.html",
-  "precache-manifest.5920e756735caebef05f190f1ba5daba.js": "/sensai-planner/precache-manifest.5920e756735caebef05f190f1ba5daba.js",
+  "precache-manifest.70b5fdee543458cda0c1d6508e0b1b54.js": "/sensai-planner/precache-manifest.70b5fdee543458cda0c1d6508e0b1b54.js",
   "service-worker.js": "/sensai-planner/service-worker.js"
 }
