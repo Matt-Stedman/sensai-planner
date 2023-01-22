@@ -79,7 +79,7 @@ var populateUseData = async function populateUseData(longTermTable, sprintTable,
             }
         })
         .catch(function () {
-            console.log("Oh dear, Sprints failed..");
+            console.log("Oh dear, Todos failed..");
         });
 
     return useData;
@@ -98,7 +98,6 @@ const App = () => {
             base.table("Sprints"),
             base.table("To-dos")).then(setAirtableData);
     }, []);
-    console.log(airtableData);
     return (
         <div>
             <AirtableIntegration />

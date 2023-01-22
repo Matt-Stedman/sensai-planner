@@ -11,7 +11,6 @@ const SpiderCanvas = (props) => {
   }
   let use_data = props.airtableData;
 
-  console.log(use_data);
   let labels = [
     "CONVICTION",
     "LONG TERM / PROJECTS",
