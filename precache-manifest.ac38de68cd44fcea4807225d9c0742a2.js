@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/sensai-planner/static/js/runtime~main.28997f38.js"
   },
   {
-    "revision": "6e0da5e9d3765940bbf807712a09dfe2",
+    "revision": "827a314ba8475c076b9a23f284c2ff1e",
     "url": "/sensai-planner/index.html"
   }
 ];
